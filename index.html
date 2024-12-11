@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia D94</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="../imagens/logo-200.jpg" alt="Logo da Barbearia D94" class="logo">
+        <nav class="menu">
+            <a href="sobre.html">Sobre</a>
+            <a id="agendarButton">Agendar</a>
+            <a href="#contato">Contato</a>
+        </nav>        
+    </header>
+    <main>
+        <video id="videoApresentacao" class="video-apresentacao" controls>
+            <source src="../imagens/videodeapresentacao.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeos.
+        </video>
+    </main>
+    <footer>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-info">
+                    <p><strong>Barbearia D94</strong></p>
+                    <p>Dafundo, Algés</p>
+                    <p>Desde 2012</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/D94barbearia/?locale=pt_PT" target="_blank" aria-label="Facebook">📘 Facebook</a>
+                    <a href="https://www.instagram.com/d94barbearia/" target="_blank" aria-label="Instagram">📷 Instagram</a>
+                    <a href="https://wa.me/351934587833" target="_blank" aria-label="WhatsApp">💬 WhatsApp</a>
+                </div>
+                <div class="footer-credits">
+                    <p>&copy; 2024 Barbearia D94. Todos os direitos reservados.</p>
+                    <p>Feito com ❤️ em Dafundo, Algés</p>
+                </div>
+            </div>
+        </footer>
+        
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Agendar Horário</h2>
+            <form id="agendarForm" action="/submit" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+                <button type="submit">Confirmar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../dinamismo/main.js"></script>
+</body>
+</html>
