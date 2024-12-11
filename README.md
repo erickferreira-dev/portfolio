@@ -49,18 +49,7 @@ project-root/
    ├─ videodeapresentacao.mp4
    ├─ anotherpointofview.jpg
    └─ cortando.jpg
-Como Visualizar o Projeto
-Clonar o Repositório:
 
-bash
-Copiar código
-git clone https://github.com/seuusuario/repositorio.git
-Acessar a Pasta do Projeto:
-
-bash
-Copiar código
-cd repositorio
-Abrir no Navegador: Abra o arquivo index.html no seu navegador (Chrome, Firefox, Safari, etc.).
 
 Próximos Passos / Melhorias
 Incluir um backend para processar e armazenar pedidos de agendamento (opcional).
